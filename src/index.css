@@ -1,7 +1,9 @@
 /* src/index.css */
+@import "tailwindcss";
+
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+  background: transparent;
   margin: 0;
   padding: 0;
 }
