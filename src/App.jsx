@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import CounterPage from "./pages/counterPage";
 import About from "./pages/About";
+import TodoPage from "./pages/TodoPage";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/counter" element={<CounterPage />} />
         <Route path="/about" element={<About />} />
+        <Route path="/todo" element={<TodoPage />} />
       </Routes>
     </Router>
   );

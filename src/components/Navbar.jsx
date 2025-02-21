@@ -23,6 +23,12 @@ function Navbar() {
       >
         About
       </Link>
+      <Link
+        to="/todo"
+        style={{ margin: "10px", textDecoration: "none", fontSize: "20px" }}
+      >
+        Todo
+      </Link>
     </nav>
   );
 }
